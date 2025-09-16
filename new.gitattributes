@@ -1,0 +1,13 @@
+# Ignore Jupyter Notebooks in language stats
+*.ipynb linguist-vendored
+
+# Count Python source files normally
+*.py linguist-detectable=true
+
+# Optional: Ignore dataset files
+*.csv linguist-vendored
+*.xlsx linguist-vendored
+
+# Optional: Ignore logs/configs
+*.log linguist-vendored
+*.json linguist-vendored
